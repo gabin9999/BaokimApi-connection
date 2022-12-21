@@ -1,0 +1,24 @@
+{
+    "name": "duynv/baokim-api-connection",
+    "description": "Connection with BaoKim API",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Duynv\\BaokimApiConnection\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Duynv",
+            "email": "duynv1499@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^2.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "firebase/php-jwt": "^6.3"
+    },
+    "extra": {
+        "class": "App\\Connect"
+    }
+}
